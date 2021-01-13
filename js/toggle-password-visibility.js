@@ -6,7 +6,6 @@ $(document).ready(function() {
 });
 
 function toggleVisibility() {
-    console.log('111');
     if ($('#show_hide_password input').attr("type") == "text") {
         $('#show_hide_password input').attr('type', 'password');
         $('#show_hide_password i').addClass("fa-eye-slash");
